@@ -6,12 +6,10 @@ const windowHeight = 600
 
 function createFixedWindow(width, height) {
   let window = new BrowserWindow({
-    minWidth: width,
-    maxWidth: width,
     width: width,
-    minHeight: height,
-    maxHeight: height,
-    height: height
+    height: height,
+    resizable: false,
+    fullscreenable: false
   });
 
   window.on('closed', () => window = null)

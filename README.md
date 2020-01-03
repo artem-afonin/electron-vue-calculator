@@ -1,24 +1,27 @@
-# electron-vue-calculator
+# Electron-Vue-Calculator
 
-## Project setup
+An example of a simple calculator using Electron and Vue.js
+
+## Using yarn
+
+#### Project setup
 ```
 yarn install
 ```
 
-### Compiles and hot-reloads for development
+#### Project run
 ```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
+yarn start
 ```
 
-### Lints and fixes files
+## Using npm
+
+#### Project setup
 ```
-yarn lint
+npm install
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+#### Project run
+```
+npm run start
+```

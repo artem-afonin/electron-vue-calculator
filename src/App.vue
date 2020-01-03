@@ -1,9 +1,7 @@
 <template>
-    <div class="container">
-        <calculator>
-            Simple Electron + Vue.js calculator
-        </calculator>
-    </div>
+    <calculator>
+        Simple Electron + Vue.js calculator
+    </calculator>
 </template>
 
 <script>
@@ -18,5 +16,8 @@
   }
 </script>
 
-<style scoped>
+<style>
+    html {
+        font-size: 18pt;
+    }
 </style>

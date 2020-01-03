@@ -20,7 +20,7 @@ function createFixedWindow(width, height) {
 app.on('ready', () => {
   mainWindow = createFixedWindow(windowWidth, windowHeight)
   mainWindow.loadFile('dist/index.html')
-  mainWindow.webContents.openDevTools()
+  // mainWindow.webContents.openDevTools()
 })
 
 app.on('window-all-closed', () => {
